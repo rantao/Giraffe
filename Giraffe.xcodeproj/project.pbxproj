@@ -13,6 +13,9 @@
 		250D282115F162250004E68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 250D281F15F162250004E68B /* InfoPlist.strings */; };
 		250D282315F162250004E68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 250D282215F162250004E68B /* main.m */; };
 		250D282715F162260004E68B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 250D282615F162260004E68B /* AppDelegate.m */; };
+		250D282F15F1627C0004E68B /* GiraffePaperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250D282E15F1627C0004E68B /* GiraffePaperView.m */; };
+		250D283315F163A20004E68B /* GiraffeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250D283115F163A20004E68B /* GiraffeViewController.m */; };
+		250D283415F163A20004E68B /* GiraffeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250D283215F163A20004E68B /* GiraffeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		250D282415F162250004E68B /* Giraffe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Giraffe-Prefix.pch"; sourceTree = "<group>"; };
 		250D282515F162250004E68B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		250D282615F162260004E68B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		250D282D15F1627C0004E68B /* GiraffePaperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiraffePaperView.h; sourceTree = "<group>"; };
+		250D282E15F1627C0004E68B /* GiraffePaperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiraffePaperView.m; sourceTree = "<group>"; };
+		250D283015F163A20004E68B /* GiraffeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiraffeViewController.h; sourceTree = "<group>"; };
+		250D283115F163A20004E68B /* GiraffeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiraffeViewController.m; sourceTree = "<group>"; };
+		250D283215F163A20004E68B /* GiraffeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiraffeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,11 @@
 		250D281C15F162250004E68B /* Giraffe */ = {
 			isa = PBXGroup;
 			children = (
+				250D282D15F1627C0004E68B /* GiraffePaperView.h */,
+				250D282E15F1627C0004E68B /* GiraffePaperView.m */,
+				250D283015F163A20004E68B /* GiraffeViewController.h */,
+				250D283115F163A20004E68B /* GiraffeViewController.m */,
+				250D283215F163A20004E68B /* GiraffeViewController.xib */,
 				250D282515F162250004E68B /* AppDelegate.h */,
 				250D282615F162260004E68B /* AppDelegate.m */,
 				250D281D15F162250004E68B /* Supporting Files */,
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				250D282115F162250004E68B /* InfoPlist.strings in Resources */,
+				250D283415F163A20004E68B /* GiraffeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +168,8 @@
 			files = (
 				250D282315F162250004E68B /* main.m in Sources */,
 				250D282715F162260004E68B /* AppDelegate.m in Sources */,
+				250D282F15F1627C0004E68B /* GiraffePaperView.m in Sources */,
+				250D283315F163A20004E68B /* GiraffeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
